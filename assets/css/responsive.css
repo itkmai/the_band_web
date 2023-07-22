@@ -1,0 +1,110 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .ti-menu:before {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .s-full-width, .s-col-full {
+        width: 100% !important;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        float: right;
+        padding: 0 21px;
+        position: absolute;
+        top: 0;
+        right: 0;  
+    }
+
+    #header .mobile-menu-btn:hover{
+        background-color: #ccc;
+    }
+
+    #header .mobile-menu-btn:hover .menu-icon {
+        color: #000;
+    }
+
+    #header .menu-icon {
+        color: #fff;
+        font-size: 16px;
+        line-height: 46px;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 50%;
+    }
+
+    #content .members-item {
+        margin-right: 1px;
+        margin-left: -8px;
+        text-align: center;
+    }
+
+    .tickets-list {
+        display: grid;
+        background-color: #fff;
+        margin-top: 64px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    form button {
+        background-color: #003049;
+        color: #ffb3c1;
+        border: none;
+        padding: .6rem 2rem;
+        letter-spacing: 0.2em;
+        margin: .5rem 0;
+        cursor: pointer;
+        /* display: flex; */
+        display: block;
+        width: 100%;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./font_icons/themify-icons/themify-icons.css">
+
+    <style>
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding: 5%;
+  font-family: 'Lato';
+  color: rgb(95,95,95);
+  background-color: #000;
+}
+
+form input,
+form textarea{
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid rgb(200,200,200);
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus{
+  border-color: #fff3b0;
+  background-color:#fff3b0;
+  
+}
+
+textarea{
+  min-height: 4rem;
+  width: 100%;
+}
+
+form label{
+  padding-top: 15px;
+  margin-top: 1rem;
+  display: block;
+  color: #ffb3c1;
+  font-weight: bold;
+}
+
+form button{
+  background-color:#003049;
+  color:#ffb3c1;
+  border: none;
+  padding: .6rem 2rem;
+  letter-spacing: 0.2em;
+  margin: .5rem 0;
+  cursor: pointer;
+  /* display: flex; */
+}
+form button:hover {
+    opacity: 0.9;
+}
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: NAV -->
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Band</a></li>
+                <li><a href="">Tour</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="">
+                        More
+                        <i class="nav-arrow-down ti-arrow-circle-down"></i> 
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Begin: SEARCH button -->
+        <div class="search-btn">
+            <i class="search-icon ti-search"></i>
+        </div>
+        <!-- End: SEARCH button -->
+
+        </div>
+        <!-- End: NAV -->
+
+        <!-- Contact -->
+        <form>
+            <div class="grid-spaceBetween">
+              <div class="col-5">
+              <label for="_name"> Your Name </label>
+              <input type="text" name="_name" id="_name" placeholder="Name" />
+              </div>
+           
+            <div class="col-5">
+              <label for="_replyto"> Your Email </label>
+              <input type="email" name="_replyto" id="_replyto" placeholder="Email" />
+              </div>
+            </div>
+            
+            <label for="message"> Tell me everything about you .... </label>
+            <textarea name="message" id="message" placeholder=" Hey I'm Woan and I want to hear you!"></textarea>
+           
+            <button type="submit"> SUBMIT </button>
+          
+            
+          </form>
+    </div>
+</body>
+</html>
